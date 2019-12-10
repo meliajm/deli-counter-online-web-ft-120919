@@ -8,6 +8,6 @@ def line(katz_deli)
       
     string << ("#{index+1}. #{name} ")
     end
-    puts string
+    puts string.strip
   end
 end
